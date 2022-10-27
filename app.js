@@ -89,7 +89,7 @@ app.get('/products',function(req,res){
     
 
     // const my=emp1.filter((item)=>{item.id})
-    res.send(emp1)
+    // res.send(emp1)
 })
 app.post('/addproducts',function(req,res){
     const {id,name}=req.body
